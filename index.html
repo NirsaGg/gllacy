@@ -35,8 +35,29 @@
                 </ul>
             </nav>
             <div class="user-block">
-                <a href="#" class="user-block-item search">Поиск</a>
+                <a href="#" class="user-block-item search">Поиск
+                <div class="popup-search">
+                  <form action="#" method="post" class="popup-search-form">
+                    <input type="text" name="search-form" value="" placeholder="Что ищем?">
+                  </form>
+                </div>
+                </a>
+
+                <div class="login-wrapper">
                 <a href="#" class="user-block-item login">Вход</a>
+                  <div class="popup-login">
+                    <form action="#" method="post" class="popup-login-form">
+                      <input type="text" name="email" value="" placeholder="Электронная почта">
+                      <input type="password" name="pass" value="" placeholder="Пароль">
+                      <button class="btn btn-log" type="submit">Войти</button>
+                    </form>
+                    <ul class=popap-login-list>
+                      <li><a href="#">Забыли пароль?</a></li>
+                      <li><a href="#">Новая регистрация</a></li>
+                    </ul>
+                  </div>
+                  </div>
+
                 <a href="#" class="user-block-item bin">Пусто</a>
             </div>
         </header>
@@ -63,22 +84,26 @@
             <div class="goods-item">
                 <img src="img/1.png" alt="" width="267" height="267">
                 <p class="price">310<img src="img/rub.svg" width="32" height="37"></img>/кг</p>
-                <p class="goods-discription"><a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></p>
-            </div>
+                <p class="goods-discription"><a class="taste" href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></p>
+                <a href="" class="btn btn-goods">Быстрый просмотр</a>
+             </div>
             <div class="goods-item">
                 <img src="img/2.png" alt="" width="267" height="267">
                 <p class="price">380<img src="img/rub.svg" width="32" height="37"></img>/кг</p>
-                <p class="goods-discription"><a href="#">Сливочно-кофейное с кусочками шоколада</a></p>
+                <p class="goods-discription"><a class="taste" href="#">Сливочно-кофейное с кусочками шоколада</a></p>
+                <a href="" class="btn btn-goods">Быстрый просмотр</a>
             </div>
             <div class="goods-item">
                 <img src="img/3.png" alt="" width="267" height="267">
                 <p class="price">355<img src="img/rub.svg" width="32" height="37"></img>/кг</p>
-                <p class="goods-discription"><a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a></p>
+                <p class="goods-discription"><a class="taste" href="#">Сливочно-клубничное с присыпкой из белого шоколада</a></p>
+                <a href="" class="btn btn-goods">Быстрый просмотр</a>
             </div>
             <div class="goods-item">
                 <img src="img/4.png" alt="" width="267" height="267">
                 <p class="price">415<img src="img/rub.svg" width="32" height="37"></img>/кг</p>
-                <p class="goods-discription"><a href="#">Сливочное крем-брюле с карамельной подливкой</a></p>
+                <p class="goods-discription"><a class="taste" href="#">Сливочное крем-брюле с карамельной подливкой</a></p>
+                <a href="" class="btn btn-goods">Быстрый просмотр</a>
             </div>
         </div>
         <div class="features clearfix">
@@ -151,22 +176,7 @@
             </div>
         </footer>
     </div>
-    <div class="popup-search clearfix">
-      <form action="#" method="post" class="popup-search-form">
-        <input type="text" name="search-form" value="" placeholder="Что ищем?">
-      </form>
-    </div>
-    <div class="popup-login">
-      <form action="#" method="post" class="popup-login-form">
-        <input type="text" name="email" value="" placeholder="Электронная почта">
-        <input type="password" name="pass" value="" placeholder="Пароль">
-        <button class="btn btn-log" type="submit">Войти</button>
-      </form>
-      <ul class=popap-login-list>
-        <li><a href="#">Забыли пароль?</a></li>
-        <li><a href="#">Новая регистрация</a></li>
-      </ul>
-    </div>
+
     <div class="popup-feedback">
       <h3>Мы обязательно вам ответим!</h3>
       <form action="#" method="post" class="popup-feedback-form">
